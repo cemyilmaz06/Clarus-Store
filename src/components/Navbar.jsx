@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* //* icon md ekranlardan sonra gizlensin diyoruz */}
           <div className="md:hidden">
             <button
-              onClick={() => setShow(!show)}
+              onClick={() =>setShow(!show)}
               className="text-gray-500 hover:text-gray-800"
             >
               {show ? closeNavbar : openNavbar}
